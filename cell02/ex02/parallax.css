@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.section1, .section2, .section3 {
+    background-attachment: fixed;
+}
+/* First Section */
+.section1 {
+    height: 100vh;
+    background-image: url('img1.jpg'); 
+    background-size: cover;
+    background-position: center;
+  /*  position: relative;*/
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+/* Second Section */
+.section2 {
+    height: 100vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Third Section */
+.section3 {
+    height: 100vh;
+    background-image: url('img2.jpg'); 
+    background-size: cover;
+    background-position: center;
+   /* position: relative;*/
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

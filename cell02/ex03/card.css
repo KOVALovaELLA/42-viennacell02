@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.card {
+    margin-top: 10px;
+    padding: 0px;
+    width: 25%;
+    background-color: #fff;
+ 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.card table{
+    margin-top: 0;
+   /*border-spacing: 10px;*/
+    margin: 0;
+}
+.profile-img {
+    width: 100%;
+   max-width:100%;
+   margin-bottom: 10px;
+    height: auto; 
+}
+
+table {
+    width: 100%;
+    
+   
+}
+.social-icons img {
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.contact-btn {
+ 
+    background-color: #ffffff02;
+    color: #f3eeee;
+    padding: 10px 20px;
+
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.contakt-td{
+    background-color: #0f0b0b;
+}
